@@ -4,6 +4,10 @@ DOMAIN-KEYWORD,amazon
 IP-CIDR,1.201.0.0/24,no-resolve
 DOMAIN-SUFFIX,soundon.fm
 DOMAIN-SUFFIX,singlelogin.re
+DOMAIN,logincdn.msauth.net
+
+# Apple Podcast
+DOMAIN,amp-api.podcasts.apple.com
 
 # WeChat 新加坡 ip位于新加坡
 DOMAIN-SUFFIX,support.wechat.com

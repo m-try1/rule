@@ -2,3 +2,6 @@
 # Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,no-resolve
 payload:
   - DOMAIN-SUFFIX,synology.me
+  - DOMAIN-SUFFIX,plex.direct
+  - DOMAIN-SUFFIX,plex.tv
+  - DOMAIN-SUFFIX,csair.com
