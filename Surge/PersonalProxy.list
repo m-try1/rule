@@ -10,10 +10,10 @@ DOMAIN,logincdn.msauth.net
 DOMAIN,amp-api.podcasts.apple.com
 
 # WeChat 新加坡 ip位于新加坡
-DOMAIN-SUFFIX,support.wechat.com
-DOMAIN-SUFFIX,sgshort.wechat.com
-DOMAIN-SUFFIX,sgshort.pay.wechat.com
-DOMAIN-SUFFIX,sglong.wechat.com
-DOMAIN-SUFFIX,sgminorshort.wechat.com
-DOMAIN-SUFFIX,sgaxshort.wechat.com
-DOMAIN-SUFFIX,sgfindershort.wechat.com
+DOMAIN-SUFFIX,support.wechat.com,extended-matching
+DOMAIN-SUFFIX,sgshort.wechat.com,extended-matching
+DOMAIN-SUFFIX,sgshort.pay.wechat.com,extended-matching
+DOMAIN-SUFFIX,sglong.wechat.com,extended-matching
+DOMAIN-SUFFIX,sgminorshort.wechat.com,extended-matching
+DOMAIN-SUFFIX,sgaxshort.wechat.com,extended-matching
+DOMAIN-SUFFIX,sgfindershort.wechat.com,extended-matching
