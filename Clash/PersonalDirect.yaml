@@ -5,3 +5,6 @@ payload:
   - DOMAIN-SUFFIX,plex.direct
   - DOMAIN-SUFFIX,plex.tv
   - DOMAIN-SUFFIX,csair.com
+
+# Unifi 
+  - DOMAIN-SUFFIX,ui.com
