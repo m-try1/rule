@@ -1,3 +1,4 @@
 # NAME: PersonalDirect
 # Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,no-resolve
-DOMAIN-SUFFIX,synology.me
+payload:
+  - DOMAIN-SUFFIX,synology.me
