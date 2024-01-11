@@ -5,5 +5,8 @@ DOMAIN-SUFFIX,plex.direct
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,csair.com
 
+# 代理API
+DOMAIN-SUFFIX,gptapi.us
+
 # Unifi 
 DOMAIN-SUFFIX,ui.com
