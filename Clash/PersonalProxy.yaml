@@ -6,6 +6,7 @@ payload:
   - DOMAIN-SUFFIX,soundon.fm
   - DOMAIN-SUFFIX,singlelogin.re
   - DOMAIN,logincdn.msauth.net
+  - DOMAIN,cdn.winget.microsoft.com
 
 # Apple Podcast
   - DOMAIN,amp-api.podcasts.apple.com
