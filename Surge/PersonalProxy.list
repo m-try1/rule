@@ -5,16 +5,15 @@ IP-CIDR,1.201.0.0/24,no-resolve
 DOMAIN-SUFFIX,soundon.fm
 DOMAIN-SUFFIX,singlelogin.re
 DOMAIN,logincdn.msauth.net
-DOMAIN,cdn.winget.microsoft.com
 
 # Apple Podcast
 DOMAIN,amp-api.podcasts.apple.com
 
 # WeChat 新加坡 ip位于新加坡
-DOMAIN-SUFFIX,support.wechat.com,extended-matching
-DOMAIN-SUFFIX,sgshort.wechat.com,extended-matching
-DOMAIN-SUFFIX,sgshort.pay.wechat.com,extended-matching
-DOMAIN-SUFFIX,sglong.wechat.com,extended-matching
-DOMAIN-SUFFIX,sgminorshort.wechat.com,extended-matching
-DOMAIN-SUFFIX,sgaxshort.wechat.com,extended-matching
-DOMAIN-SUFFIX,sgfindershort.wechat.com,extended-matching
+# DOMAIN-SUFFIX,support.wechat.com,extended-matching
+# DOMAIN-SUFFIX,sgshort.wechat.com,extended-matching
+# DOMAIN-SUFFIX,sgshort.pay.wechat.com,extended-matching
+# DOMAIN-SUFFIX,sglong.wechat.com,extended-matching
+# DOMAIN-SUFFIX,sgminorshort.wechat.com,extended-matching
+# DOMAIN-SUFFIX,sgaxshort.wechat.com,extended-matching
+# DOMAIN-SUFFIX,sgfindershort.wechat.com,extended-matching
