@@ -11,3 +11,7 @@ DOMAIN-SUFFIX,gptapi.us
 
 # Unifi 
 DOMAIN-SUFFIX,ui.com
+
+# Avast
+DOMAIN-SUFFIX,avcdn.net
+DOMAIN-SUFFIX,avast.com
