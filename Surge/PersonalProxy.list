@@ -1,13 +1,21 @@
 # NAME: Personal
 # Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,no-resolve
-DOMAIN-KEYWORD,amazon
-IP-CIDR,1.201.0.0/24,no-resolve
-DOMAIN-SUFFIX,soundon.fm
-DOMAIN-SUFFIX,singlelogin.re
-DOMAIN,logincdn.msauth.net
+
+DOMAIN-SUFFIX,soundon.fm,extended-matching
+DOMAIN-SUFFIX,singlelogin.re,extended-matching
+
+# 微软
+# DOMAIN,logincdn.msauth.net,extended-matching
 
 # Apple Podcast
-DOMAIN,amp-api.podcasts.apple.com
+DOMAIN,amp-api.podcasts.apple.com,extended-matching
+
+# Safari防止诈骗网站
+DOMAIN-SUFFIX,safebrowsing.apple,extended-matching
+
+# Amazon
+# DOMAIN-KEYWORD,amazon.com
+DOMAIN-SUFFIX,amazon.com,extended-matching
 
 # WeChat 新加坡 ip位于新加坡
 # DOMAIN-SUFFIX,support.wechat.com,extended-matching
@@ -17,3 +25,6 @@ DOMAIN,amp-api.podcasts.apple.com
 # DOMAIN-SUFFIX,sgminorshort.wechat.com,extended-matching
 # DOMAIN-SUFFIX,sgaxshort.wechat.com,extended-matching
 # DOMAIN-SUFFIX,sgfindershort.wechat.com,extended-matching
+
+# 不确定
+# IP-CIDR,1.201.0.0/24,no-resolve
