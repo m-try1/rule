@@ -18,6 +18,10 @@ payload:
 #  - DOMAIN-KEYWORD,amazon
   - DOMAIN-SUFFIX,amazon.com
 
+# Moneywiz
+  - DOMAIN-SUFFIX,wiz.money
+  - DOMAIN,api.syncbits.com
+
 # WeChat 新加坡 ip位于新加坡
 #  - DOMAIN-SUFFIX,support.wechat.com
 #  - DOMAIN-SUFFIX,sgshort.wechat.com
