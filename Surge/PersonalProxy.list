@@ -10,9 +10,6 @@ DOMAIN-SUFFIX,singlelogin.re,extended-matching
 # Apple Podcast
 DOMAIN,amp-api.podcasts.apple.com,extended-matching
 
-# Safari防止诈骗网站
-DOMAIN-SUFFIX,safebrowsing.apple,extended-matching
-
 # Amazon
 # DOMAIN-KEYWORD,amazon.com
 DOMAIN-SUFFIX,amazon.com,extended-matching

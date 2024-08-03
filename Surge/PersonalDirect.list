@@ -15,3 +15,7 @@ DOMAIN-SUFFIX,ui.com
 # Avast
 DOMAIN-SUFFIX,avcdn.net
 DOMAIN-SUFFIX,avast.com
+
+# Safari防止诈骗网站
+DOMAIN-SUFFIX,safebrowsing.apple,extended-matching
+DOMAIN,safebrowsing.googleapis.com,extended-matching

@@ -11,9 +11,6 @@ payload:
 # Apple Podcast
   - DOMAIN,amp-api.podcasts.apple.com
 
-# Safari防止诈骗网站
-  - DOMAIN-SUFFIX,safebrowsing.apple
-
 # Amazon
 #  - DOMAIN-KEYWORD,amazon
   - DOMAIN-SUFFIX,amazon.com
