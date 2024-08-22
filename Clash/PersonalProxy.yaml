@@ -5,6 +5,9 @@ payload:
   - DOMAIN-SUFFIX,soundon.fm
   - DOMAIN-SUFFIX,singlelogin.re
 
+# Plex
+  - DOMAIN-SUFFIX,plex.tv
+
 # 微软
 #  - DOMAIN,logincdn.msauth.net
 

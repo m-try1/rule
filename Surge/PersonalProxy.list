@@ -4,6 +4,9 @@
 DOMAIN-SUFFIX,soundon.fm,extended-matching
 DOMAIN-SUFFIX,singlelogin.re,extended-matching
 
+# Plex
+DOMAIN-SUFFIX,plex.tv
+
 # 微软
 # DOMAIN,logincdn.msauth.net,extended-matching
 

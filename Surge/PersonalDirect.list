@@ -2,9 +2,10 @@
 # Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,no-resolve
 DOMAIN-SUFFIX,synology.me
 DOMAIN-SUFFIX,quickconnect.to
-DOMAIN-SUFFIX,plex.direct
-DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,csair.com
+
+# Plex
+DOMAIN-SUFFIX,plex.direct
 
 # 代理API
 DOMAIN-SUFFIX,gptapi.us
