@@ -21,6 +21,9 @@ DOMAIN-SUFFIX,amazon.com,extended-matching
 DOMAIN-SUFFIX,wiz.money,extended-matching
 DOMAIN,api.syncbits.com,extended-matching
 
+# 墙了的网站
+DOMAIN-SUFFIX,yts.mx,extended-matching
+
 # WeChat 新加坡 ip位于新加坡
 # DOMAIN-SUFFIX,support.wechat.com,extended-matching
 # DOMAIN-SUFFIX,sgshort.wechat.com,extended-matching
