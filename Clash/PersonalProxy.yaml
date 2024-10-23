@@ -5,6 +5,9 @@ payload:
   - DOMAIN-SUFFIX,soundon.fm
   - DOMAIN-SUFFIX,singlelogin.re
 
+# Notion被误杀
+  - DOMAIN,exp.notion.so
+
 # Plex
   - DOMAIN-SUFFIX,plex.tv
 

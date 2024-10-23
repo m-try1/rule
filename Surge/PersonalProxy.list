@@ -4,8 +4,11 @@
 DOMAIN-SUFFIX,soundon.fm,extended-matching
 DOMAIN-SUFFIX,singlelogin.re,extended-matching
 
+# Notion被误杀
+DOMAIN,exp.notion.so,extended-matching
+
 # Plex
-DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,plex.tv,extended-matching
 
 # 微软
 # DOMAIN,logincdn.msauth.net,extended-matching
