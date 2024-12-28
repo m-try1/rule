@@ -20,3 +20,6 @@ DOMAIN-SUFFIX,avast.com
 # Safari防止诈骗网站
 DOMAIN-SUFFIX,safebrowsing.apple,extended-matching
 DOMAIN,safebrowsing.googleapis.com,extended-matching
+
+# Deepseek
+DOMAIN-SUFFIX,deepseek.com,extended-matching
