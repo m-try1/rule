@@ -23,3 +23,7 @@ DOMAIN,safebrowsing.googleapis.com,extended-matching
 
 # Deepseek
 DOMAIN-SUFFIX,deepseek.com,extended-matching
+
+# m-team
+DOMAIN-SUFFIX,m-team.io,extended-matching
+DOMAIN-SUFFIX,m-team.cc,extended-matching

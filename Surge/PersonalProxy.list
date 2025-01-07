@@ -42,7 +42,3 @@ DOMAIN-SUFFIX,yts.mx,extended-matching
 # KingSKY
 DOMAIN-SUFFIX,content.click4cbt.com,extended-matching
 DOMAIN-SUFFIX,kingskyflightacademy.cpat.com,extended-matching
-
-# m-team
-DOMAIN-SUFFIX,m-team.io,extended-matching
-DOMAIN-SUFFIX,m-team.cc,extended-matching

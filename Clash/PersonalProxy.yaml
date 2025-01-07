@@ -28,10 +28,6 @@ payload:
 # 墙了的网站
   - DOMAIN-SUFFIX,yts.mx
 
-# m-team
-  - DOMAIN-SUFFIX,m-team.io
-  - DOMAIN-SUFFIX,m-team.cc
-
 # WeChat 新加坡 ip位于新加坡
 #  - DOMAIN-SUFFIX,support.wechat.com
 #  - DOMAIN-SUFFIX,sgshort.wechat.com
