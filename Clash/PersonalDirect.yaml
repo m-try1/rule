@@ -24,3 +24,6 @@ payload:
 
 # Deepseek
   - DOMAIN-SUFFIX,deepseek.com
+
+# m-team
+  - DOMAIN-SUFFIX,zp.m-team.io
