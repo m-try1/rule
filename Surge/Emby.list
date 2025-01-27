@@ -1,0 +1,11 @@
+# NAME: Personal
+# Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,no-resolve
+
+# Ytoo
+DOMAIN,st.stentvessel.xyz,extended-matching
+
+# prpr
+DOMAIN,neo.iflya321.com,extended-matching
+
+# tanhua
+DOMAIN,tanhuatv.site,extended-matching
