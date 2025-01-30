@@ -28,3 +28,6 @@ payload:
 # m-team
   - DOMAIN-SUFFIX,m-team.io
   - DOMAIN-SUFFIX,m-team.cc
+
+# Cambly
+  - DOMAIN-SUFFIX,cambly.com
