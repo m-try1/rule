@@ -7,3 +7,7 @@ payload:
 
 # tanhua
   - DOMAIN,tanhuatv.site
+
+# HKB
+  - DOMAIN,hkb-emby.aliz.work
+  - hkb-emby2.aliz.work

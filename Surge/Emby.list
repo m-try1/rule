@@ -9,3 +9,7 @@ DOMAIN,neo.iflya321.com,extended-matching
 
 # tanhua
 DOMAIN,tanhuatv.site,extended-matching
+
+# HKB
+DOMAIN,DOMAIN,hkb-emby.aliz.work,extended-matching
+DOMAIN,hkb-emby2.aliz.work,extended-matching
