@@ -1,0 +1,5 @@
+# NAME: Personal
+# Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,no-resolve
+
+# ipv6.jpush
+DOMAIN,stats-ipv6.jpush.cn,REJECT
