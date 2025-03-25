@@ -1,21 +1,32 @@
 # NAME: PersonalDirect
 # Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,no-resolve
-DOMAIN-SUFFIX,synology.me
-DOMAIN-SUFFIX,quickconnect.to
-DOMAIN-SUFFIX,csair.com
+
+DOMAIN-SUFFIX,synology.me,extended-matching
+DOMAIN-SUFFIX,quickconnect.to,extended-matching
+DOMAIN-SUFFIX,csair.com,extended-matching
+
+# DNS
+IP-CIDR,119.29.29.29/32,no-resolve
+IP-CIDR,223.5.5.5/32,no-resolve
+DOMAIN,dns.alidns.com,extended-matching
+DOMAIN,doh.pub,extended-matching
+
+# Adguard Home
+DOMAIN,local.adguard.org,extended-matching
+DOMAIN,injections.adguard.org,extended-matching
 
 # Plex
-DOMAIN-SUFFIX,plex.direct
+DOMAIN-SUFFIX,plex.direct,extended-matching
 
 # 代理API
-DOMAIN-SUFFIX,gptapi.us
+DOMAIN-SUFFIX,gptapi.us,extended-matching
 
 # Unifi 
-DOMAIN-SUFFIX,ui.com
+DOMAIN-SUFFIX,ui.com,extended-matching
 
 # Avast
-DOMAIN-SUFFIX,avcdn.net
-DOMAIN-SUFFIX,avast.com
+DOMAIN-SUFFIX,avcdn.net,extended-matching
+DOMAIN-SUFFIX,avast.com,extended-matching
 
 # Safari防止诈骗网站
 DOMAIN-SUFFIX,safebrowsing.apple,extended-matching
