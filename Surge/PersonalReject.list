@@ -5,5 +5,7 @@
 DOMAIN,stats-ipv6.jpush.cn,extended-matching
 
 # 米家错误链接
-IP-CIDR,106.120.178.6/32,pre-matching,no-resolve
-IP-CIDR,106.120.178.8/32,pre-matching,no-resolve
+# IP-CIDR,106.120.178.6/32,pre-matching,no-resolve
+# IP-CIDR,106.120.178.8/32,pre-matching,no-resolve
+IP-CIDR,106.120.178.6/32,no-resolve
+IP-CIDR,106.120.178.8/32,no-resolve
