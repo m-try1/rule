@@ -4,6 +4,7 @@
 DOMAIN-SUFFIX,synology.me,extended-matching
 DOMAIN-SUFFIX,quickconnect.to,extended-matching
 DOMAIN-SUFFIX,csair.com,extended-matching
+DOMAIN,javdb456.com,extended-matching
 
 # DNS
 IP-CIDR,119.29.29.29/32,no-resolve
