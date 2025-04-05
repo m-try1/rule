@@ -5,6 +5,9 @@ payload:
   - DOMAIN-SUFFIX,soundon.fm
   - DOMAIN-SUFFIX,singlelogin.re
 
+# z-lib
+  - DOMAIN,z-library.sk
+
 # Notion被误杀
   - DOMAIN,exp.notion.so
 
