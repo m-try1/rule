@@ -1,10 +1,13 @@
 # NAME: PersonalDirect
 # Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,no-resolve
 
-DOMAIN-SUFFIX,synology.me,extended-matching
-DOMAIN-SUFFIX,quickconnect.to,extended-matching
 DOMAIN-SUFFIX,csair.com,extended-matching
 DOMAIN,javdb456.com,extended-matching
+
+# Home
+DOMAIN-SUFFIX,home.puddd.date,extended-matching
+DOMAIN-SUFFIX,synology.me,extended-matching
+DOMAIN-SUFFIX,quickconnect.to,extended-matching
 
 # DNS
 IP-CIDR,119.29.29.29/32,no-resolve
