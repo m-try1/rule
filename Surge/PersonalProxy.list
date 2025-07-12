@@ -4,6 +4,9 @@
 DOMAIN-SUFFIX,soundon.fm,extended-matching
 DOMAIN-SUFFIX,singlelogin.re,extended-matching
 
+# Personal
+DOMAIN,piclist.puddd.date,extended-matching
+
 # z-lib
 DOMAIN,z-library.sk,extended-matching
 

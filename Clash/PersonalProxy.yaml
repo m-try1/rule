@@ -5,6 +5,9 @@ payload:
   - DOMAIN-SUFFIX,soundon.fm
   - DOMAIN-SUFFIX,singlelogin.re
 
+# Personal
+  - DOMAIN,piclist.puddd.date
+
 # z-lib
   - DOMAIN,z-library.sk
 

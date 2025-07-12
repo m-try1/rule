@@ -6,6 +6,8 @@ DOMAIN,javdb456.com,extended-matching
 
 # Home
 DOMAIN-SUFFIX,home.puddd.date,extended-matching
+DOMAIN-SUFFIX,speedtest.manual.puddd.date,extended-matching
+DOMAIN-SUFFIX,speedtest.webdev.puddd.date,extended-matching
 DOMAIN-SUFFIX,synology.me,extended-matching
 DOMAIN-SUFFIX,quickconnect.to,extended-matching
 

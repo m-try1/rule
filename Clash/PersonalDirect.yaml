@@ -6,9 +6,10 @@ payload:
 
 # Home
   - DOMAIN-SUFFIX,home.puddd.date
+  - DOMAIN-SUFFIX,speedtest.manual.puddd.date
+  - DOMAIN-SUFFIX,speedtest.webdev.puddd.date
   - DOMAIN-SUFFIX,synology.me
   - DOMAIN-SUFFIX,quickconnect.to
-
 
 # DNS
   - DOMAIN-SUFFIX,dns.alidns.com
