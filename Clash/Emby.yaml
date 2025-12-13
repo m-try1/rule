@@ -5,9 +5,5 @@ payload:
 # prpr
   - DOMAIN,neo.iflya321.com
 
-# tanhua
-  - DOMAIN,tanhuatv.site
-
 # HKA & HKB
   - DOMAIN,hka-emby.aliz.work
-  - DOMAIN,hkb-emby.aliz.work
