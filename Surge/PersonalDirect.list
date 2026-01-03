@@ -52,3 +52,6 @@ DOMAIN-SUFFIX,camblychina.com,extended-matching
 
 # DeepL
 DOMAIN-SUFFIX,deepl.com,extended-matching
+
+# 起点公费服
+DOMAIN,mediaa.qdz1.top,extended-matching

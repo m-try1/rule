@@ -52,3 +52,6 @@ payload:
 
 # DeepL
   - DOMAIN-SUFFIX,deepl.com
+
+# 起点公费服
+  - DOMAIN,mediaa.qdz1.top
