@@ -1,3 +1,7 @@
+# NAME: Emby
+# Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,no-resolve
+# Generated from Surge/Emby.list by build.py -- DO NOT EDIT
+
 payload:
 # Ytoo
   - DOMAIN,st.stentvessel.xyz
@@ -7,3 +11,6 @@ payload:
 
 # HKA & HKB
   - DOMAIN,hka-emby.aliz.work
+
+# 28.al
+  - DOMAIN,test.28.al

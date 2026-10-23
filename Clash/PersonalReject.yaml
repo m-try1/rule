@@ -1,11 +1,13 @@
-# NAME: PersonalProxy
+# NAME: PersonalReject
 # Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,no-resolve
+# Generated from Surge/PersonalReject.list by build.py -- DO NOT EDIT
 
 payload:
-
 # ipv6.jpush
   - DOMAIN,stats-ipv6.jpush.cn
 
 # 米家错误链接
+#  - IP-CIDR,106.120.178.6/32,no-resolve
+#  - IP-CIDR,106.120.178.8/32,no-resolve
   - IP-CIDR,106.120.178.6/32,no-resolve
   - IP-CIDR,106.120.178.8/32,no-resolve

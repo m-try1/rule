@@ -15,8 +15,8 @@ DOMAIN-SUFFIX,quickconnect.to,extended-matching
 # DNS
 IP-CIDR,119.29.29.29/32,no-resolve
 IP-CIDR,223.5.5.5/32,no-resolve
-DOMAIN,dns.alidns.com,extended-matching
-DOMAIN,doh.pub,extended-matching
+DOMAIN-SUFFIX,dns.alidns.com,extended-matching
+DOMAIN-SUFFIX,doh.pub,extended-matching
 
 # Adguard Home
 DOMAIN,local.adguard.org,extended-matching
@@ -55,4 +55,7 @@ DOMAIN-SUFFIX,deepl.com,extended-matching
 
 # 起点公费服
 DOMAIN,mediaa.qdz1.top,extended-matching
-DOMAIN,nb6.28.al,extended-matching
+DOMAIN,nb6.28.al.top,extended-matching
+
+# AI
+DOMAIN-SUFFIX,relay.zedra.dev,extended-matching

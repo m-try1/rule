@@ -1,5 +1,6 @@
 # NAME: PersonalProxy
 # Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,no-resolve
+# Generated from Surge/PersonalProxy.list by build.py -- DO NOT EDIT
 
 payload:
   - DOMAIN-SUFFIX,soundon.fm
@@ -24,7 +25,7 @@ payload:
   - DOMAIN,amp-api.podcasts.apple.com
 
 # Amazon
-#  - DOMAIN-KEYWORD,amazon
+#  - DOMAIN-KEYWORD,amazon.com
   - DOMAIN-SUFFIX,amazon.com
 
 # Moneywiz
@@ -45,3 +46,7 @@ payload:
 
 # 不确定
 #  - IP-CIDR,1.201.0.0/24,no-resolve
+
+# KingSKY
+  - DOMAIN-SUFFIX,content.click4cbt.com
+  - DOMAIN-SUFFIX,kingskyflightacademy.cpat.com

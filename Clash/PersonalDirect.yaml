@@ -1,22 +1,24 @@
 # NAME: PersonalDirect
 # Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,no-resolve
+# Generated from Surge/PersonalDirect.list by build.py -- DO NOT EDIT
+
 payload:
   - DOMAIN-SUFFIX,csair.com
   - DOMAIN,javdb456.com
 
 # Home
   - DOMAIN-SUFFIX,home.puddd.date
-  - DOMAIN-SUFFIX,speedtest.manual.puddd.date
   - DOMAIN-SUFFIX,speedtest.play.puddd.date
+  - DOMAIN-SUFFIX,speedtest.manual.puddd.date
   - DOMAIN-SUFFIX,speedtest.webdev.puddd.date
   - DOMAIN-SUFFIX,synology.me
   - DOMAIN-SUFFIX,quickconnect.to
 
 # DNS
-  - DOMAIN-SUFFIX,dns.alidns.com
-  - DOMAIN-SUFFIX,doh.pub
   - IP-CIDR,119.29.29.29/32,no-resolve
   - IP-CIDR,223.5.5.5/32,no-resolve
+  - DOMAIN-SUFFIX,dns.alidns.com
+  - DOMAIN-SUFFIX,doh.pub
 
 # Adguard Home
   - DOMAIN,local.adguard.org
@@ -28,7 +30,7 @@ payload:
 # 代理API
   - DOMAIN-SUFFIX,gptapi.us
 
-# Unifi 
+# Unifi
   - DOMAIN-SUFFIX,ui.com
 
 # Avast
@@ -56,3 +58,6 @@ payload:
 # 起点公费服
   - DOMAIN,mediaa.qdz1.top
   - DOMAIN,nb6.28.al.top
+
+# AI
+  - DOMAIN-SUFFIX,relay.zedra.dev
