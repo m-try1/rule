@@ -5,7 +5,6 @@ DOMAIN-SUFFIX,csair.com,extended-matching
 DOMAIN,javdb456.com,extended-matching
 
 # Home
-DOMAIN-SUFFIX,home.puddd.date,extended-matching
 DOMAIN-SUFFIX,speedtest.play.puddd.date,extended-matching
 DOMAIN-SUFFIX,speedtest.manual.puddd.date,extended-matching
 DOMAIN-SUFFIX,speedtest.webdev.puddd.date,extended-matching
