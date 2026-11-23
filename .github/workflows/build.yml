@@ -22,12 +22,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Run unit tests
+        run: python3 -m unittest
+
       - name: Generate Clash rules from Surge lists
         run: python3 build.py
 
       - name: Commit generated rules
         run: |
-          if git diff --quiet -- Clash/; then
+          if [ -z "$(git status --porcelain -- Clash/)" ]; then
             echo "Clash/ already up to date, nothing to commit"
             exit 0
           fi

@@ -9,6 +9,7 @@ Usage:
     ./build.py --check   exit 1 if any generated file is out of date
 """
 
+import argparse
 import sys
 from pathlib import Path
 
@@ -47,7 +48,7 @@ def split_rule(text):
 def convert_rule(text, where):
     """Convert one Surge rule body to Clash form. Returns the body string."""
     parts = split_rule(text)
-    if len(parts) < 2:
+    if len(parts) < 2 or not parts[1]:
         raise ValueError(f"{where}: cannot parse rule {text!r}")
 
     rule_type = parts[0].upper()
@@ -59,10 +60,11 @@ def convert_rule(text, where):
     for option in parts[2:]:
         if not option:
             continue
-        if option in SURGE_ONLY_OPTIONS:
+        opt = option.lower()
+        if opt in SURGE_ONLY_OPTIONS:
             continue
-        if option in KEPT_OPTIONS:
-            out.append(option)
+        if opt in KEPT_OPTIONS:
+            out.append(opt)
             continue
         raise ValueError(f"{where}: unknown option {option!r} in {text!r}")
 
@@ -83,7 +85,10 @@ def convert_line(line, lineno, where):
     if stripped.startswith("#"):
         body = stripped[1:].strip()
         if looks_like_rule(body):
-            return f"#  - {convert_rule(body, f'{where}:{lineno}')}"
+            try:
+                return f"#  - {convert_rule(body, f'{where}:{lineno}')}"
+            except ValueError:
+                return stripped
         return stripped
 
     return f"  - {convert_rule(stripped, f'{where}:{lineno}')}"
@@ -94,20 +99,22 @@ def build_one(src_path):
     lines = src_path.read_text(encoding="utf-8").splitlines()
 
     header = [f"# NAME: {name}"]
+    saw_preamble = False
     body_start = 0
 
     # Carry over the leading "# NAME:" / "# Type:" preamble verbatim,
-    # retitling NAME. The preamble ends at the first blank line.
+    # retitling NAME. The preamble ends at the first blank line after it starts.
     while body_start < len(lines):
         stripped = lines[body_start].strip()
         if not stripped:
-            if header:
+            if saw_preamble:
                 body_start += 1
                 break
             body_start += 1
             continue
         if not stripped.startswith("#"):
             break
+        saw_preamble = True
         if stripped.upper().startswith("# NAME:"):
             header = [f"# NAME: {name}"]
             body_start += 1
@@ -135,8 +142,18 @@ def build_one(src_path):
     return "\n".join(cleaned) + "\n"
 
 
-def main():
-    check = "--check" in sys.argv[1:]
+def parse_args(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="exit 1 if any generated file is out of date",
+    )
+    return parser.parse_args(argv)
+
+
+def main(argv=None):
+    args = parse_args(argv)
 
     sources = sorted(SRC_DIR.glob("*.list"))
     if not sources:
@@ -147,7 +164,7 @@ def main():
     for src in sources:
         text = build_one(src)
         dst = OUT_DIR / f"{src.stem}.yaml"
-        if check:
+        if args.check:
             old = dst.read_text(encoding="utf-8") if dst.exists() else None
             if old != text:
                 stale.append(dst.name)
@@ -155,7 +172,7 @@ def main():
         dst.write_text(text, encoding="utf-8")
         print(f"wrote {dst.relative_to(ROOT)}")
 
-    if check:
+    if args.check:
         if stale:
             print("out of date: " + ", ".join(stale), file=sys.stderr)
             print("run ./build.py and commit the result", file=sys.stderr)
